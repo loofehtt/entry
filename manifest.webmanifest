@@ -9,6 +9,9 @@
   "orientation": "portrait",
   "background_color": "#ffffff",
   "theme_color": "#f0b400",
+  "dir": "ltr",
+  "lang": "vi",
+  "categories": ["productivity", "business"],
   "icons": [
     {
       "src": "icon-192.png",
@@ -25,10 +28,12 @@
     {
       "src": "icon-512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "label": "Entry Pass giao diện chính"
     }
   ],
   "launch_handler": {
     "client_mode": "focus-existing"
-  }
+  },
+  "iarc_rating_id": "pending"
 }
