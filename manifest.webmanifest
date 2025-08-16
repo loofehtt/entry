@@ -1,8 +1,12 @@
 {
-  "name": "Reiner Nguyen",
+  "id": "/",
+  "name": "Entry Pass - Reiner Nguyen",
   "short_name": "EntryPass",
+  "description": "Ứng dụng kiểm tra vào cổng an toàn cho nhân viên V24050018 (Reiner Nguyen).",
   "start_url": "./index.html",
+  "scope": "./",
   "display": "standalone",
+  "orientation": "portrait",
   "background_color": "#ffffff",
   "theme_color": "#f0b400",
   "icons": [
@@ -16,5 +20,15 @@
       "sizes": "512x512",
       "type": "image/png"
     }
-  ]
+  ],
+  "screenshots": [
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "launch_handler": {
+    "client_mode": "focus-existing"
+  }
 }
