@@ -11,7 +11,7 @@
   "theme_color": "#f0b400",
   "dir": "ltr",
   "lang": "vi",
-  "categories": ["productivity", "business"],
+  "categories": ["business", "productivity"],
   "icons": [
     {
       "src": "icon-192.png",
@@ -29,7 +29,7 @@
       "src": "icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
-      "label": "Entry Pass giao diện chính"
+      "label": "Màn hình chính Entry Pass"
     }
   ],
   "launch_handler": {
